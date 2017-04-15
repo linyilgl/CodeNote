@@ -1,0 +1,53 @@
+*{
+    margin:0;padding:0;
+    box-sizing:border-box;
+}
+.banner a,.banner a:hover{
+    color: #fff;
+}
+
+.banner{
+    height:800px;
+    color:#fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(https://www.vtrois.com/wp-content/themes/Kratos/images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 400px 0;
+}
+.slogen{
+    text-shadow: 2px 2px 2px #666;
+    text-align:center;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#tansuo{
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 1em 5em;
+}
+#tansuo:hover{
+    background-color:#51aded;
+    border-color:#51aded;
+    text-shadow: 2px 2px 2px #666;
+}
+/*头部banner结束*/
+
+
+#zuopinji{
+    background-color: #f5f5f5;
+}
+.page-img{
+    padding:10px;
+}
+.onepage{
+    background-color: #fff;
+    padding:0 10px;
+}
+.onepage:hover{
+    box-shadow: 2px 2px#f5f5f5
+}
+.page-meta{
+    border-top:1px solid #ededed;
+}
