@@ -2,10 +2,9 @@
     margin:0;padding:0;
     box-sizing:border-box;
 }
-.banner a,.banner a:hover{
+a,a:hover{
     color: #fff;
 }
-
 .banner{
     height:800px;
     color:#fff;
@@ -22,21 +21,46 @@ h2{
     font-size: 40px;
     margin-bottom: 30px;
 }
-#tansuo{
+#tansuo ,.view-more{
     border: 1px solid #fff;
     display: inline-block;
     padding: 1em 5em;
 }
-#tansuo:hover{
+#tansuo:hover,.view-more{
     background-color:#51aded;
     border-color:#51aded;
     text-shadow: 2px 2px 2px #666;
+}
+.view-more:hover{
+    background-color: #333333;
+    border-color: #333;
 }
 /*头部banner结束*/
 
 
 #zuopinji{
     background-color: #f5f5f5;
+    padding: 80px 0 48px;
+    font-size: 16px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 26px;
+    font-weight: 400;
+
+}
+.under-title{
+    margin-bottom: 80px;
+}
+.text-info{
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    /*margin-bottom: 80px;*/
 }
 .page-img{
     padding:10px;
@@ -44,10 +68,12 @@ h2{
 .onepage{
     background-color: #fff;
     padding:0 10px;
+    margin-bottom: 50px;
 }
 .onepage:hover{
-    box-shadow: 2px 2px#f5f5f5
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
 }
 .page-meta{
     border-top:1px solid #ededed;
+    padding: 10px 20px 20px;
 }
