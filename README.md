@@ -11,4 +11,4 @@
 
 今天完成了作品集展示的板块:
 
-![image]()
+![image](https://github.com/linyilgl/CodeNote/blob/master/img/1704160017.png)
